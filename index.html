@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    var array=[3,4,5,6,1,]
+    array.sort(function(a,b){return a-b})
+    document.write(array)
+    array.reverse(function (a,b){return b-a})
+    document.write("<br>"+ array)
+    function mapping(num){
+        return num*10
+    }
+    var newarray=array.map(mapping)
+    document.write("<br>"+newarray)
+   </script> 
+</body>
+</html>
